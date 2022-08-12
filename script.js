@@ -33,7 +33,7 @@ if (jugador == enemigo){
 else if (jugador == 0 && enemigo == 2){
     alert ("¡GANASTE!")
 }
-else if (jugador == 1 && enemigo == 2){
+else if (jugador == 1 && enemigo == 0){
     alert ("¡GANASTE!")
 }
 else if (jugador == 2 && enemigo == 1){

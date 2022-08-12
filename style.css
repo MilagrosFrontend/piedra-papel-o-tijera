@@ -9,4 +9,31 @@ html {
     
 body {
     height: 100vh;
+    background: rgb(6,167,139);
+    background: linear-gradient(90deg, rgba(6,167,139,1) 53%, rgba(34,255,0,1) 96%);
+}
+main h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 5rem;
+}
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main button {
+    margin-top: 100px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 80px;
+    background-color: #92a706;
+    padding: 10px;
+    transition: 0.5s all;
+}
+main button:hover {
+    border: 3px solid black; 
+    transform: scale(1.1);
+    transition: 0.5s all;
 }
